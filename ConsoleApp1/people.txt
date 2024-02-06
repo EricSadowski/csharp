@@ -1,0 +1,7 @@
+Joe;16;Vancouver
+Jane;22;London
+Paul;20;Miami
+Jack;26;Toronto
+Kang;149;32323
+joe;4;boston
+tom;65;detroit
