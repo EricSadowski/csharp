@@ -4,17 +4,64 @@ using System.Collections.Generic;
 using System.Reflection.PortableExecutable;
 using System.Text.RegularExpressions;
 
-public class Person
-{
-    public string Name { get; set; }
-    public int Age { get; set; }
-    public string City { get; set; }
-
-    public override string ToString()
+class Person
     {
-        return $"Name: {Name}, Age: {Age}, City: {City}";
+        private string _name; //fields private
+        private int _age;
+        private string _city;
+
+        public Person(string name, int age, string city)
+        {
+            Name = name;
+            Age = age;
+            City = city;
+        }
+
+        public string Name  //proprty can help to access to the field
+        { 
+            get { return _name; } //getter to get the value of the private field 
+        
+            set 
+            {
+                if (value.Length < 2 || value.Length > 100)
+                {
+                    throw new ArgumentException("Name must be between 2 and 100 characters");
+                }
+                _name = value; 
+            }
+        }
+        public int Age 
+        { 
+            get { return _age; } 
+            set 
+            {
+                if(value < 0 || value > 100)
+                {
+                    throw new ArgumentException("age must be between 0 and 100");
+                }
+                _age = value; 
+            }
+        }
+
+        public string City { 
+            get { return _city; }
+            set {
+                if (value.Length < 2 || value.Length > 100)
+                {
+                    throw new ArgumentException("city must be between 2 and 100 chars");
+                }
+                _city = value; 
+            }
+        }
+
+
+        public override string ToString()
+        {
+            //return base.ToString(); //like super
+            return String.Format("{0} is {1} y/o and lives in {2}", _name, Age, City);
+        }
+
     }
-}
 
 class InvalidNameException : Exception
 {
@@ -83,7 +130,7 @@ class Program
     {
 
         //Create object of FileInfo for specified path            
-        FileInfo fi = new FileInfo(@"C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ConsoleApp1\people.txt");
+        FileInfo fi = new FileInfo(@"..\..\people.txt");
 
         //Open file for Read\Write
         FileStream fs = fi.Open(FileMode.OpenOrCreate, FileAccess.Read, FileShare.Read);
@@ -217,7 +264,7 @@ class Program
 
     static void Save()
     {
-        using (StreamWriter writer = new StreamWriter(@"C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ConsoleApp1\people.txt"))
+        using (StreamWriter writer = new StreamWriter(@"..\..\people.txt"))
         {
             foreach (var person in people)
             {
