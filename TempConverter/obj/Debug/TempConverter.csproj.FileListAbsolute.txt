@@ -1,0 +1,15 @@
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\bin\Debug\TempConverter.exe.config
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\bin\Debug\TempConverter.exe
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\bin\Debug\TempConverter.pdb
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\obj\Debug\TempConverter.csproj.AssemblyReference.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\obj\Debug\MainWindow.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\obj\Debug\App.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\obj\Debug\TempConverter_MarkupCompile.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\obj\Debug\TempConverter_MarkupCompile.lref
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\obj\Debug\MainWindow.baml
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\obj\Debug\TempConverter.g.resources
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\obj\Debug\TempConverter.Properties.Resources.resources
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\obj\Debug\TempConverter.csproj.GenerateResource.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\obj\Debug\TempConverter.csproj.CoreCompileInputs.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\obj\Debug\TempConverter.exe
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TempConverter\obj\Debug\TempConverter.pdb
