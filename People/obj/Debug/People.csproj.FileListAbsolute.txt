@@ -1,0 +1,15 @@
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\bin\Debug\People.exe.config
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\bin\Debug\People.exe
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\bin\Debug\People.pdb
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\obj\Debug\People.csproj.AssemblyReference.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\obj\Debug\MainWindow.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\obj\Debug\App.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\obj\Debug\People_MarkupCompile.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\obj\Debug\People_MarkupCompile.lref
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\obj\Debug\MainWindow.baml
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\obj\Debug\People.g.resources
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\obj\Debug\People.Properties.Resources.resources
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\obj\Debug\People.csproj.GenerateResource.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\obj\Debug\People.csproj.CoreCompileInputs.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\obj\Debug\People.exe
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\People\obj\Debug\People.pdb

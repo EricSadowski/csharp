@@ -1,0 +1,16 @@
+C:\fsd9-csharp\IcecreamSelector\bin\Debug\IcecreamSelector.exe.config
+C:\fsd9-csharp\IcecreamSelector\bin\Debug\IcecreamSelector.exe
+C:\fsd9-csharp\IcecreamSelector\bin\Debug\IcecreamSelector.pdb
+C:\fsd9-csharp\IcecreamSelector\obj\Debug\IcecreamSelector.csproj.AssemblyReference.cache
+C:\fsd9-csharp\IcecreamSelector\obj\Debug\IcecreamSelector.csproj.SuggestedBindingRedirects.cache
+C:\fsd9-csharp\IcecreamSelector\obj\Debug\MainWindow.g.cs
+C:\fsd9-csharp\IcecreamSelector\obj\Debug\App.g.cs
+C:\fsd9-csharp\IcecreamSelector\obj\Debug\IcecreamSelector_MarkupCompile.cache
+C:\fsd9-csharp\IcecreamSelector\obj\Debug\IcecreamSelector_MarkupCompile.lref
+C:\fsd9-csharp\IcecreamSelector\obj\Debug\MainWindow.baml
+C:\fsd9-csharp\IcecreamSelector\obj\Debug\IcecreamSelector.g.resources
+C:\fsd9-csharp\IcecreamSelector\obj\Debug\IcecreamSelector.Properties.Resources.resources
+C:\fsd9-csharp\IcecreamSelector\obj\Debug\IcecreamSelector.csproj.GenerateResource.cache
+C:\fsd9-csharp\IcecreamSelector\obj\Debug\IcecreamSelector.csproj.CoreCompileInputs.cache
+C:\fsd9-csharp\IcecreamSelector\obj\Debug\IcecreamSelector.exe
+C:\fsd9-csharp\IcecreamSelector\obj\Debug\IcecreamSelector.pdb
