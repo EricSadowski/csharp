@@ -1,0 +1,15 @@
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\bin\Debug\QuizTravel.exe.config
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\bin\Debug\QuizTravel.exe
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\bin\Debug\QuizTravel.pdb
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\obj\Debug\QuizTravel.csproj.AssemblyReference.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\obj\Debug\MainWindow.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\obj\Debug\App.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\obj\Debug\QuizTravel_MarkupCompile.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\obj\Debug\QuizTravel_MarkupCompile.lref
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\obj\Debug\MainWindow.baml
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\obj\Debug\QuizTravel.g.resources
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\obj\Debug\QuizTravel.Properties.Resources.resources
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\obj\Debug\QuizTravel.csproj.GenerateResource.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\obj\Debug\QuizTravel.csproj.CoreCompileInputs.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\obj\Debug\QuizTravel.exe
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\QuizTravel\obj\Debug\QuizTravel.pdb

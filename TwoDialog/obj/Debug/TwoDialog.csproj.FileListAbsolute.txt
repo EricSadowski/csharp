@@ -1,0 +1,17 @@
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\bin\Debug\TwoDialog.exe.config
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\bin\Debug\TwoDialog.exe
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\bin\Debug\TwoDialog.pdb
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\TwoDialog.csproj.AssemblyReference.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\HelloDialog.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\MainWindow.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\App.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\TwoDialog_MarkupCompile.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\TwoDialog_MarkupCompile.lref
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\HelloDialog.baml
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\MainWindow.baml
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\TwoDialog.g.resources
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\TwoDialog.Properties.Resources.resources
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\TwoDialog.csproj.GenerateResource.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\TwoDialog.csproj.CoreCompileInputs.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\TwoDialog.exe
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\TwoDialog\obj\Debug\TwoDialog.pdb

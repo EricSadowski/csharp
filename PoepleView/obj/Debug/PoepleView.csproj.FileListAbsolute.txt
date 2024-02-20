@@ -1,0 +1,16 @@
+C:\fsd9-csharp\PoepleView\bin\Debug\PoepleView.exe.config
+C:\fsd9-csharp\PoepleView\bin\Debug\PoepleView.exe
+C:\fsd9-csharp\PoepleView\bin\Debug\PoepleView.pdb
+C:\fsd9-csharp\PoepleView\obj\Debug\PoepleView.csproj.AssemblyReference.cache
+C:\fsd9-csharp\PoepleView\obj\Debug\PoepleView.csproj.SuggestedBindingRedirects.cache
+C:\fsd9-csharp\PoepleView\obj\Debug\MainWindow.g.cs
+C:\fsd9-csharp\PoepleView\obj\Debug\App.g.cs
+C:\fsd9-csharp\PoepleView\obj\Debug\PoepleView_MarkupCompile.cache
+C:\fsd9-csharp\PoepleView\obj\Debug\PoepleView_MarkupCompile.lref
+C:\fsd9-csharp\PoepleView\obj\Debug\MainWindow.baml
+C:\fsd9-csharp\PoepleView\obj\Debug\PoepleView.g.resources
+C:\fsd9-csharp\PoepleView\obj\Debug\PoepleView.Properties.Resources.resources
+C:\fsd9-csharp\PoepleView\obj\Debug\PoepleView.csproj.GenerateResource.cache
+C:\fsd9-csharp\PoepleView\obj\Debug\PoepleView.csproj.CoreCompileInputs.cache
+C:\fsd9-csharp\PoepleView\obj\Debug\PoepleView.exe
+C:\fsd9-csharp\PoepleView\obj\Debug\PoepleView.pdb

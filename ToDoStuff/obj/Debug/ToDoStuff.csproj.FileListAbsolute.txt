@@ -1,0 +1,15 @@
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\bin\Debug\ToDoStuff.exe.config
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\bin\Debug\ToDoStuff.exe
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\bin\Debug\ToDoStuff.pdb
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\obj\Debug\ToDoStuff.csproj.AssemblyReference.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\obj\Debug\MainWindow.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\obj\Debug\App.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\obj\Debug\ToDoStuff_MarkupCompile.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\obj\Debug\ToDoStuff_MarkupCompile.lref
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\obj\Debug\MainWindow.baml
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\obj\Debug\ToDoStuff.g.resources
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\obj\Debug\ToDoStuff.Properties.Resources.resources
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\obj\Debug\ToDoStuff.csproj.GenerateResource.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\obj\Debug\ToDoStuff.csproj.CoreCompileInputs.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\obj\Debug\ToDoStuff.exe
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\ToDoStuff\obj\Debug\ToDoStuff.pdb

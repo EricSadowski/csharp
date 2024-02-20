@@ -1,0 +1,3 @@
+honda;3;Petrol
+toyota;2.55035971223022;Petrol
+wow;3.5;Diesel

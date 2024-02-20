@@ -1,0 +1,18 @@
+﻿<Window x:Class="TwoDialog.HelloDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TwoDialog"
+        mc:Ignorable="d"
+        Title="HelloDialog" Height="400" Width="500">
+    <Grid>
+        <Label Name="lblMessage" Content="Message" Height="50" Margin="10,20,-10,300"></Label>
+        <Label Name="lblAge" Content="What is your age" Height="50" Margin="10,77,20,257"></Label>
+        <Label Name="lblCity" Content="What is your city" Height="50" Margin="10,132,20,202"></Label>
+        <TextBox Name="txtBoxAge" HorizontalAlignment="Left" VerticalAlignment="Top" Width="225" Height="30" Margin="162,87,0,0"></TextBox>
+        <TextBox Name="txtBoxCity" HorizontalAlignment="Left" VerticalAlignment="Top" Width="225" Height="30" Margin="162,142,0,0"></TextBox>
+        <Button Name="btnOk" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Content="Ok" Margin="260,242,0,0" Click="btnOk_Click"></Button>
+        <Button Name="btnCancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="30" Content="Cancel" Margin="111,242,0,0" RenderTransformOrigin="0.49,0.46" Click="btnCancel_Click"></Button>
+    </Grid>
+</Window>

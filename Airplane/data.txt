@@ -1,0 +1,4 @@
+MLT;Montreal;50;100;700
+JFK;Newyork;60;80;500
+KLM;Sweden;40;95;800
+RTK;PEPPA city;90;80;550

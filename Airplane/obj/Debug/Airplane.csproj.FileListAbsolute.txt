@@ -1,0 +1,8 @@
+C:\fsd9-csharp\Airplane\bin\Debug\Airplane.exe.config
+C:\fsd9-csharp\Airplane\bin\Debug\Airplane.exe
+C:\fsd9-csharp\Airplane\bin\Debug\Airplane.pdb
+C:\fsd9-csharp\Airplane\obj\Debug\Airplane.csproj.AssemblyReference.cache
+C:\fsd9-csharp\Airplane\obj\Debug\Airplane.csproj.SuggestedBindingRedirects.cache
+C:\fsd9-csharp\Airplane\obj\Debug\Airplane.csproj.CoreCompileInputs.cache
+C:\fsd9-csharp\Airplane\obj\Debug\Airplane.exe
+C:\fsd9-csharp\Airplane\obj\Debug\Airplane.pdb

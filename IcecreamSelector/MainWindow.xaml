@@ -9,7 +9,7 @@
     <Grid>
         <StackPanel Orientation="Horizontal">
             <ListView Name="lvIceCreamFalvors" VerticalAlignment="Top" Width="211" Margin="10,20, 30, 10" Height="251"/>
-            <Button Name="btnAddSelectedFlavor" Content="Add" Margin="70,0,373,20" Width="100" Height="50" VerticalAlignment="Center" Click="BtnAddSelectedFlavor_Click"/>
+            <Button Name="btnAddSelectedFlavor" Content="Add" Margin="70,0,373,20" Width="100" Height="50" VerticalAlignment="Center" Click="BtnAddSelectedFlavor_Click" MouseDown="BtnAddSelectedFlavor_MouseDown"/>
         </StackPanel>
         <StackPanel>
             <ListView Name="lvSelectedFalvors" HorizontalAlignment="Left" Width="188" Margin="476,20,0,0"  Height="248"/>

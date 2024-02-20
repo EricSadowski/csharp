@@ -1,0 +1,16 @@
+C:\fsd9-csharp\TemperaturConverter\bin\Debug\TemperaturConverter.exe.config
+C:\fsd9-csharp\TemperaturConverter\bin\Debug\TemperaturConverter.exe
+C:\fsd9-csharp\TemperaturConverter\bin\Debug\TemperaturConverter.pdb
+C:\fsd9-csharp\TemperaturConverter\obj\Debug\TemperaturConverter.csproj.AssemblyReference.cache
+C:\fsd9-csharp\TemperaturConverter\obj\Debug\TemperaturConverter.csproj.SuggestedBindingRedirects.cache
+C:\fsd9-csharp\TemperaturConverter\obj\Debug\MainWindow.g.cs
+C:\fsd9-csharp\TemperaturConverter\obj\Debug\App.g.cs
+C:\fsd9-csharp\TemperaturConverter\obj\Debug\TemperaturConverter_MarkupCompile.cache
+C:\fsd9-csharp\TemperaturConverter\obj\Debug\TemperaturConverter_MarkupCompile.lref
+C:\fsd9-csharp\TemperaturConverter\obj\Debug\MainWindow.baml
+C:\fsd9-csharp\TemperaturConverter\obj\Debug\TemperaturConverter.g.resources
+C:\fsd9-csharp\TemperaturConverter\obj\Debug\TemperaturConverter.Properties.Resources.resources
+C:\fsd9-csharp\TemperaturConverter\obj\Debug\TemperaturConverter.csproj.GenerateResource.cache
+C:\fsd9-csharp\TemperaturConverter\obj\Debug\TemperaturConverter.csproj.CoreCompileInputs.cache
+C:\fsd9-csharp\TemperaturConverter\obj\Debug\TemperaturConverter.exe
+C:\fsd9-csharp\TemperaturConverter\obj\Debug\TemperaturConverter.pdb

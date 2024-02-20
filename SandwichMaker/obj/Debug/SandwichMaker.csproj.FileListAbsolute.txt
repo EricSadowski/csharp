@@ -1,0 +1,17 @@
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\bin\Debug\SandwichMaker.exe.config
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\bin\Debug\SandwichMaker.exe
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\bin\Debug\SandwichMaker.pdb
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\SandwichMaker.csproj.AssemblyReference.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\MainWindow.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\Selection.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\App.g.cs
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\SandwichMaker_MarkupCompile.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\SandwichMaker_MarkupCompile.lref
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\MainWindow.baml
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\Selection.baml
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\SandwichMaker.g.resources
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\SandwichMaker.Properties.Resources.resources
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\SandwichMaker.csproj.GenerateResource.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\SandwichMaker.csproj.CoreCompileInputs.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\SandwichMaker.exe
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\SandwichMaker\obj\Debug\SandwichMaker.pdb

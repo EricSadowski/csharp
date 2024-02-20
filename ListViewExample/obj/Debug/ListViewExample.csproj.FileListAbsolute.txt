@@ -1,0 +1,16 @@
+C:\fsd9-csharp\ListViewExample\bin\Debug\ListViewExample.exe.config
+C:\fsd9-csharp\ListViewExample\bin\Debug\ListViewExample.exe
+C:\fsd9-csharp\ListViewExample\bin\Debug\ListViewExample.pdb
+C:\fsd9-csharp\ListViewExample\obj\Debug\ListViewExample.csproj.AssemblyReference.cache
+C:\fsd9-csharp\ListViewExample\obj\Debug\ListViewExample.csproj.SuggestedBindingRedirects.cache
+C:\fsd9-csharp\ListViewExample\obj\Debug\MainWindow.g.cs
+C:\fsd9-csharp\ListViewExample\obj\Debug\App.g.cs
+C:\fsd9-csharp\ListViewExample\obj\Debug\ListViewExample_MarkupCompile.cache
+C:\fsd9-csharp\ListViewExample\obj\Debug\ListViewExample_MarkupCompile.lref
+C:\fsd9-csharp\ListViewExample\obj\Debug\MainWindow.baml
+C:\fsd9-csharp\ListViewExample\obj\Debug\ListViewExample.g.resources
+C:\fsd9-csharp\ListViewExample\obj\Debug\ListViewExample.Properties.Resources.resources
+C:\fsd9-csharp\ListViewExample\obj\Debug\ListViewExample.csproj.GenerateResource.cache
+C:\fsd9-csharp\ListViewExample\obj\Debug\ListViewExample.csproj.CoreCompileInputs.cache
+C:\fsd9-csharp\ListViewExample\obj\Debug\ListViewExample.exe
+C:\fsd9-csharp\ListViewExample\obj\Debug\ListViewExample.pdb

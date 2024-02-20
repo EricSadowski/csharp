@@ -107,5 +107,10 @@ namespace IcecreamSelector
                 selectedFlavors.Clear();
             }
         }
+
+        private void BtnAddSelectedFlavor_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }

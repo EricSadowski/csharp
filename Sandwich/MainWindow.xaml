@@ -1,0 +1,24 @@
+﻿<Window x:Class="Sandwich.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sandwich"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="180" Width="296" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel>
+            <Button x:Name="btnMakeSandwich" Content="Make a sandwich" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="100" Click="btnMakeSandwich_Click"></Button>
+            <Label Content="Bread" ></Label>
+            <Label Content="Veggis" ></Label>
+            <Label Content="Meat" ></Label>
+        </StackPanel>
+        <StackPanel Margin="20">
+            <Label Name="lblBreadVal" Content="..."  Height="24" Width="102"></Label>
+            <Label Name="lblVeggisVal" Content="..."  Height="30" Width="104"></Label>
+            <Label Name="lblMeatVal" Content="..."  Height="30" Width="101"></Label>
+        </StackPanel>
+
+
+    </Grid>
+</Window>
