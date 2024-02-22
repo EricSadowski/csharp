@@ -20,9 +20,19 @@ namespace CarApplication
     public partial class CarGarage : Window
     {
         public event Action<string, double, string> AssignResult;
-        public CarGarage()
+        public Car curCar;
+        public CarGarage(Car car)
         {
             InitializeComponent();
+
+            if(car != null )
+            {
+                make.Text = car.Make;
+                slEngine.Value = car.Engine;
+                comboFuel.Text = car.Fuel;
+                curCar = car;
+                saveBtn.Content = "Update";
+            }
         }
 
         private void saveBtn_Click(object sender, RoutedEventArgs e)
@@ -30,11 +40,23 @@ namespace CarApplication
             string fuelType = comboFuel.Text;
             string makeType = make.Text;
             double engineSize = (double)slEngine.Value;
-
-            AssignResult?.Invoke(makeType, engineSize, fuelType);
+            if(curCar != null )
+            {
+                curCar.Make = makeType;
+                curCar.Fuel = fuelType;
+                curCar.Engine = engineSize;
+            }
+            else
+            {
+                AssignResult?.Invoke(makeType, engineSize, fuelType);
+            }
+            
             DialogResult = true;
         }
 
-
+        private void cancelBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

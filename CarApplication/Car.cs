@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CarApplication
 {
-    internal class Car
+    public class Car
     {
         private string _make;
         private double _engine;

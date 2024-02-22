@@ -11,17 +11,21 @@
         <DockPanel>
             <Menu DockPanel.Dock="Top">
                 <MenuItem Header="_File">
-                    <MenuItem Header="Export To CSV " />
+                    <MenuItem Header="Export To CSV" Click="MenuItemExport_Click" />
                     <Separator />
-                    <MenuItem Header="_Exit" />
+                    <MenuItem Header="_Exit" Click="MenuItemExit_Click" />
                 </MenuItem>
                 <MenuItem Header="Add" Click="MenuItemAdd_Click" />
-                <MenuItem Header="Delete" />
+                <MenuItem Header="Delete" Click="MenuItemDelete_Click"/>
             </Menu>
-            <TextBox AcceptsReturn="True" />
-        </DockPanel>
+            
+        
+        <StatusBar DockPanel.Dock="Bottom">
+            <TextBlock x:Name="tbStatus" Text="Status Bar"/>
+        </StatusBar>
 
-        <ListView Name="lvCars" HorizontalAlignment="Left" Width="350" Margin="0,0,0,0"  Height="330" SelectionChanged="lvCars_SelectionChanged">
+
+        <ListView Name="lvCars" HorizontalAlignment="Left" Width="350" Margin="0,0,0,0"  Height="auto" MouseDoubleClick="MenuItemEdit_Click">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Make Model" Width="100" DisplayMemberBinding="{Binding Make}"></GridViewColumn>
@@ -29,7 +33,13 @@
                     <GridViewColumn Header="Fuel Type" Width="100" DisplayMemberBinding="{Binding Fuel}"></GridViewColumn>
                 </GridView>
             </ListView.View>
-        </ListView>
-
+                <ListView.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Delete" Click="MenuItemDelete_Click"></MenuItem>
+                        <MenuItem Header="Update" Click="MenuItemEdit_Click"></MenuItem>
+                    </ContextMenu>
+                </ListView.ContextMenu>
+            </ListView>
+        </DockPanel>
     </Grid>
 </Window>

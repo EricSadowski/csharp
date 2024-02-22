@@ -1,3 +1,4 @@
 honda;3;Petrol
-toyota;2.55035971223022;Petrol
-wow;3.5;Diesel
+toyota;4.76258992805756;Petrol
+Ok;5.5;Electric
+Brea;4.5;Electric

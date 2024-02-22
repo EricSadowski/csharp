@@ -21,7 +21,7 @@
         </ComboBox>
 
         <Button Name="saveBtn" HorizontalAlignment="Left" Margin="170,220,0,0" VerticalAlignment="Top" Height="30" Width="50" Click="saveBtn_Click">Save</Button>
-        <Button Name="cancelBtn" HorizontalAlignment="Left" Margin="90,220,0,0" VerticalAlignment="Top" Height="30" Width="50">Cancel</Button>
+        <Button Name="cancelBtn" HorizontalAlignment="Left" Margin="90,220,0,0" VerticalAlignment="Top" Height="30" Width="50" Click="cancelBtn_Click">Cancel</Button>
 
 
 

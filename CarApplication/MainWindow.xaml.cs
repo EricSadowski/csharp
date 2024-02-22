@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -13,6 +14,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using CsvHelper;
+using System.Globalization;
+using System.Linq.Expressions;
 
 namespace CarApplication
 {
@@ -28,11 +32,6 @@ namespace CarApplication
         {
             InitializeComponent();
             LoadData();
-        }
-
-        private void lvCars_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
         }
 
 
@@ -54,6 +53,7 @@ namespace CarApplication
                     carList.Add(new Car(make, engine, fuel));
                 }
                 lvCars.ItemsSource = carList;
+                tbStatus.Text = String.Format("You curently have {0} car(s)", lvCars.Items.Count);
             }
         }
 
@@ -71,7 +71,7 @@ namespace CarApplication
 
         private void MenuItemAdd_Click(object sender, RoutedEventArgs e)
         {
-            CarGarage carGarage = new CarGarage();
+            CarGarage carGarage = new CarGarage(null);
             carGarage.Owner = this;
             
 
@@ -80,9 +80,77 @@ namespace CarApplication
                 Car newCar = new Car(make, eng, fuel);
                 carList.Add(newCar);
                 lvCars.Items.Refresh();
+                tbStatus.Text = String.Format("You curently have {0} car(s)", lvCars.Items.Count);
             };
             carGarage.ShowDialog();
+            
         }
 
+        private void MenuItemDelete_Click(object sender, RoutedEventArgs e)
+        {
+            if(lvCars.SelectedIndex == -1)
+            {
+                MessageBox.Show("You need to select one item", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+            Car carToBeDeleted = (Car) lvCars.SelectedItem;
+            MessageBoxResult result = MessageBox.Show("Are you sure?", "Confirmation", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (result == MessageBoxResult.Yes)
+            {
+                carList.Remove(carToBeDeleted);
+                lvCars.Items.Refresh();
+                tbStatus.Text = String.Format("You curently have {0} car(s)", lvCars.Items.Count);
+            }
+
+        }
+
+        private void MenuItemEdit_Click(object sender, RoutedEventArgs e)
+        {
+            if(lvCars.SelectedIndex == -1)
+            {
+                return;
+            }
+            Car car = (Car) lvCars.SelectedItem;
+            CarGarage carGarage = new CarGarage(car);
+            carGarage.Owner = this;
+
+           bool? result = carGarage.ShowDialog();
+            if(result == true)
+            {
+                lvCars.Items.Refresh();
+                tbStatus.Text = String.Format("You curently have {0} car(s)", lvCars.Items.Count);
+            }
+        }
+
+        private void MenuItemExport_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "CSV file(*.csv)|*.csv";
+            saveFileDialog.Title = "Export to file";
+
+            if(saveFileDialog.ShowDialog() == true)
+            {
+                try
+                {
+                    using(var writer = new StreamWriter(saveFileDialog.FileName))
+                    {
+                        using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+                        {
+
+                            csv.WriteRecords(carList);
+                        }
+                    }
+                }
+                catch (IOException ex)
+                {
+                    MessageBox.Show("Error writing file: " + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            }
+        }
+
+        private void MenuItemExit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
