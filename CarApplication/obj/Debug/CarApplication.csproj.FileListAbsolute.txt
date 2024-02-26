@@ -34,3 +34,7 @@ C:\Users\ericc\OneDrive\Documents\GitHub\csharp\CarApplication\bin\Debug\System.
 C:\Users\ericc\OneDrive\Documents\GitHub\csharp\CarApplication\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\ericc\OneDrive\Documents\GitHub\csharp\CarApplication\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\ericc\OneDrive\Documents\GitHub\csharp\CarApplication\obj\Debug\CarApplication.csproj.CopyComplete
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\CarApplication\bin\Debug\EntityFramework.dll
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\CarApplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\CarApplication\bin\Debug\EntityFramework.xml
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\CarApplication\bin\Debug\EntityFramework.SqlServer.xml

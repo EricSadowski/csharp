@@ -1,0 +1,2 @@
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\UnitTesting\source-code-starter\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.csproj.AssemblyReference.cache
+C:\Users\ericc\OneDrive\Documents\GitHub\csharp\UnitTesting\source-code-starter\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.csproj.CoreCompileInputs.cache

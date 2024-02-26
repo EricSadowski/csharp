@@ -1,0 +1,35 @@
+﻿<Window x:Class="OwnerCars.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OwnerCars"
+        mc:Ignorable="d"
+        Title="Car Owners" Height="450" Width="550" ResizeMode="NoResize">
+    <Grid>
+
+        <Button Content="Upload Image" Click="UploadImage_Click" Width="150"  HorizontalAlignment="Left" Margin="323,130,0,167"/>
+        <Image x:Name="ImagePreview" Width="150"  HorizontalAlignment="Left" Margin="323,130,0,167"/>
+
+        <ListView Name="lvOwners" SelectionChanged="lvOwners_SelectionChanged" HorizontalAlignment="Left" Width="250" Margin="0,0,0,0"  Height="auto">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Id" Width="50" DisplayMemberBinding="{Binding Id}"></GridViewColumn>
+                    <GridViewColumn Header="Name" Width="100" DisplayMemberBinding="{Binding Name}"></GridViewColumn>
+                    <GridViewColumn Header="Cars" Width="100" DisplayMemberBinding="{Binding TotalCars}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="311,27,0,0"></Label>
+        <Label Name="idBox" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="354,27,0,0" Height="26" Width="17"/>
+
+        <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="302,72,0,0"></Label>
+        <TextBox Name="tbName" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="372,78,0,0" Width="120" Height="20"></TextBox>
+
+        <Button Name="btnAdd" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="288,300,0,0" Width="60" Click="btnAdd_Click"></Button>
+        <Button Name="btnDelete" Content="Delete" IsEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="372,300,0,0" Width="60" Click="btnDelete_Click"></Button>
+        <Button Name="btnUpdate" Content="Update" IsEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="462,300,0,0" Width="60" Click="btnUpdate_Click"></Button>
+        <Button Name="btnManage" Content="Manage Cars" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="288,337,0,0" Width="234" Click="btnManage_Click"></Button>
+
+    </Grid>
+</Window>
