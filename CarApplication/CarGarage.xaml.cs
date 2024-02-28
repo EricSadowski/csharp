@@ -21,6 +21,7 @@ namespace CarApplication
     {
         public event Action<string, double, string> AssignResult;
         public Car curCar;
+      //  slEngine.ValueChanged += SlEngine_ValueChanged;
         public CarGarage(Car car)
         {
             InitializeComponent();
@@ -34,6 +35,8 @@ namespace CarApplication
                 saveBtn.Content = "Update";
             }
         }
+
+
 
         private void saveBtn_Click(object sender, RoutedEventArgs e)
         {
@@ -52,6 +55,15 @@ namespace CarApplication
             }
             
             DialogResult = true;
+        }
+
+        
+
+// Then, define the event handler
+        private void SlEngine_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            // Set the content of the Label to the current value of the Slider
+            valEngine.Content = slEngine.Value.ToString();
         }
 
         private void cancelBtn_Click(object sender, RoutedEventArgs e)

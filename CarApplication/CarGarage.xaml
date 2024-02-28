@@ -10,8 +10,8 @@
         <Label Content="Car Make Model" HorizontalAlignment="Left" Margin="18,34,0,0" VerticalAlignment="Top"/>
         <TextBox Name="make" HorizontalAlignment="Left" Margin="150,34,0,0" VerticalAlignment="Top" Width="111" Height="26"/>
         <Label Content="Engine Size" HorizontalAlignment="Left" Margin="40,78,0,0" VerticalAlignment="Top"/>
-        <Label Name="valEngine"  Content="" HorizontalAlignment="Left" Margin="150,70,0,0" VerticalAlignment="Top"/>
-        <Slider Name="slEngine" HorizontalAlignment="Left" Margin="40,110,0,0" VerticalAlignment="Top" Width="150" Minimum="0.5" Maximum="8"/>
+        <Label Name="valEngine"  Content="" HorizontalAlignment="Left" Margin="138,79,0,0" VerticalAlignment="Top"/>
+        <Slider Name="slEngine" HorizontalAlignment="Left" ValueChanged="SlEngine_ValueChanged" Margin="40,110,0,0" VerticalAlignment="Top" Width="150" Minimum="0.5" Maximum="8"/>
 
         <Label Content="Fuel Type:" HorizontalAlignment="Left" Margin="60,140,0,0" VerticalAlignment="Top"/>
         <ComboBox Name="comboFuel" HorizontalAlignment="Left" Margin="60,170,0,0" VerticalAlignment="Top" Width="176">

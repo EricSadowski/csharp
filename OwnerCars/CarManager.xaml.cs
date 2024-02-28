@@ -23,7 +23,7 @@ namespace OwnerCars
     public partial class CarManager : Window
     {
 
-        public event Action<Car> AssignResult;
+        //public event Action<Car> AssignResult;
         public Owner curOwner;
         public CarManager(Owner owner)
         {
@@ -77,7 +77,7 @@ namespace OwnerCars
                 int newCarId = carToAdd.Id;
                 LoadData();
 
-                AssignResult?.Invoke(carToAdd);
+               // AssignResult?.Invoke(carToAdd);
             }
             catch (SystemException ex)
             {

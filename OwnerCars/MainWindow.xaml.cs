@@ -186,12 +186,14 @@ namespace OwnerCars
             CarManager carGarage = new CarManager(owner);
             carGarage.Owner = this;
 
-            bool? result = carGarage.ShowDialog();
-            if (result == true)
-            {
-                LoadData();
+            carGarage.ShowDialog();
+
+            //bool? result = carGarage.ShowDialog();
+            //if (result == true)
+            //{
+            //    LoadData();
                 
-            }
+            //}
             LoadData();
         }
 
